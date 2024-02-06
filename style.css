@@ -26,4 +26,58 @@ header{
     height: 70px;
     position: absolute;
     z-index: 1;
-}   
+}
+
+header .logo a{
+    font-size: 30px;
+    color: white;
+    padding: 15px 30px;
+}
+
+header .logo a span{
+    color: orange;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li a{
+    margin: 5px 20px;
+    font-size: 18px;
+    color: white;
+    padding: 10px 10px;
+}
+
+header nav ul li a:hover{
+    border-bottom: 2px solid white;
+}
+
+/*Content*/
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, rgba(96,76,76,.6),rgba(96,76,76,.6)),url("img/bg-image.jpeg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content h2{
+    font-size: 32px;
+    padding: 5px;
+    color: white;
+}
+
+.content p{
+    font-size: 22px;
+    color: white;
+}
