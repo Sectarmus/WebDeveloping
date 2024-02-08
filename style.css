@@ -303,6 +303,12 @@ form .form-content span::before{
     transform: .4s;
 }
 
+form .form-content input:focus~label,
+form .form-content input:valid~label{
+    top: -5px;
+    color: orange;
+}
+
 form .form-content input:focus~span::before,
 form .form-content input:valid~span::before{
     width: 100%;
