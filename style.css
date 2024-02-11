@@ -371,4 +371,168 @@ form .form-content input:valid~span::before{
     color: orange;
 }
 
-/*Responsive*/
+/* Responsive */
+
+@media(max-width: 992px){
+
+    /* Header */
+
+    header{
+        flex-direction: column;
+        height: 150px;
+        background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2));
+    }
+
+    .menu-header .logo a{
+        font-size: 25px;
+    }
+
+    header nav ul li a{
+        font-size: 16px;
+        flex-direction: column;
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    header nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content h2{
+        font-size: 28px;
+    }
+
+    .content p{
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 950px){
+    .contact .contact-box{
+        flex: 100%;
+    }
+}
+
+@media(max-width: 800px){
+    .menu .menu-content .hot-coffees,
+    .cold-coffees,
+    .frappucino-coffees{
+        margin: 20px;
+    }
+}
+
+@media(max-width: 700px){
+    .footer .footer-box .social-media a{
+        color: white;
+        background-color: #333333;
+        border-radius: 50%;
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    .footer .footer-box .copyright{
+        color: white;
+        font-size: 15px;
+    }
+
+    .footer .footer-box .brand{
+        color: white;
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 500px){
+    /* Header */
+
+    header{
+        height: 130px;
+    }
+
+    header .logo a{
+        font-size: 23px;
+    }
+
+    header nav ul li a{
+        font-size: 13px;
+        flex-direction: column;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    
+    header nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Content */
+
+    .content h2{
+        font-size: 23px;
+    }
+    
+    .content p{
+        font-size: 16px;
+    }
+
+    /* Footer */
+
+    .footer .footer-box{
+        flex-direction: column;
+    }
+
+    .footer .footer-box .social-media a{
+        color: white;
+        background-color: #333333;
+        border-radius: 50%;
+        font-size: 16px;
+        padding: 10px;
+        margin-top: 10px;
+        display: inline-block;
+    }
+
+    .footer .footer-box .copyright{
+        color: white;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .footer .footer-box .brand{
+        color: white;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+}
+
+@media(max-width: 410px){
+    /* Header */
+
+    header{
+        height: 120px;
+    }
+
+    header .logo a{
+        font-size: 12px;
+        flex-direction: column;
+        display: inline-block;
+        margin-top: 10px;
+        color: white;
+        padding: 5px 5px;
+    }
+    
+    header nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Content */
+
+    .content h2{
+        font-size: 20px;
+    }
+    
+    .content p{
+        font-size: 13px;
+    }
+
+}
