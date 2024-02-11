@@ -330,3 +330,45 @@ form .form-content input:valid~span::before{
 }
 
 /* footer */
+
+.footer{
+    background-color: #404040;
+    border-top: 2px solid #333333;
+}
+
+.footer .footer-box{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .footer-box .social-media a{
+    color: white;
+    background-color: #333333;
+    border-radius: 50%;
+    font-size: 17px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.footer .footer-box .social-media a:hover{
+    opacity: .7;
+    transition: .5s all ease-in-out;
+}
+
+.footer .footer-box .copyright{
+    color: white;
+    font-size: 20px;
+}
+
+.footer .footer-box .brand{
+    color: white;
+    font-size: 20px;
+}
+
+.footer .footer-box .brand span{
+    color: orange;
+}
+
+/*Responsive*/
